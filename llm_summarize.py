@@ -17,12 +17,11 @@ def load_json(file_path):
         return json.load(file)
 
 
-crm = load_json("data/crm.json")
-support = load_json("data/support.json")
-slack = load_json("data/slack.json")
-emails = load_json("data/emails.json")
-usage = load_json("data/usage.json")
-
+crm = load_json("crm.json")
+support = load_json("support.json")
+slack = load_json("slack.json")
+emails = load_json("emails.json")
+usage = load_json("usage.json")
 
 def get_customer_data(customer_name):
 
@@ -49,7 +48,6 @@ def get_customer_data(customer_name):
             customer["usage"] = item
 
     return customer
-
 
 def generate_summary(customer_name):
 
