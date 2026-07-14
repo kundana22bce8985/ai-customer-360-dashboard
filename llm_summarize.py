@@ -23,6 +23,7 @@ slack = load_json("slack.json")
 emails = load_json("emails.json")
 usage = load_json("usage.json")
 
+
 def get_customer_data(customer_name):
 
     customer = {}
@@ -48,6 +49,7 @@ def get_customer_data(customer_name):
             customer["usage"] = item
 
     return customer
+
 
 def generate_summary(customer_name):
 
