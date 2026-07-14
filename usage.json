@@ -1,0 +1,12 @@
+[
+  {
+    "customer": "ABC Technologies",
+    "usage": "Down 35%",
+    "last_login": "Yesterday"
+  },
+  {
+    "customer": "XYZ Solutions",
+    "usage": "Up 15%",
+    "last_login": "Today"
+  }
+]

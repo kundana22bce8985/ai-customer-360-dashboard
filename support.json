@@ -1,0 +1,12 @@
+[
+  {
+    "customer": "ABC Technologies",
+    "tickets_open": 2,
+    "latest_issue": "Payment API timeout"
+  },
+  {
+    "customer": "XYZ Solutions",
+    "tickets_open": 1,
+    "latest_issue": "Invoice download issue"
+  }
+]

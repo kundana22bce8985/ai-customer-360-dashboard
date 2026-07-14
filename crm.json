@@ -1,0 +1,16 @@
+[
+  {
+    "customer": "ABC Technologies",
+    "plan": "Enterprise",
+    "mrr": 4000,
+    "renewal": "20 Days",
+    "owner": "Rahul"
+  },
+  {
+    "customer": "XYZ Solutions",
+    "plan": "Business",
+    "mrr": 2500,
+    "renewal": "45 Days",
+    "owner": "Priya"
+  }
+]
